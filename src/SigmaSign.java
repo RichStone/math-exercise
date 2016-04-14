@@ -10,7 +10,7 @@ public class SigmaSign {
 		this.var = var;
 	}
 	
-	public double berechne() {
+	public double calculate() {
 		double n = 0;
 		for(; start <= end; start++ ) {
 			n += var;
